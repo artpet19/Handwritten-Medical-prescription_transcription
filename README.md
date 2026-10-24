@@ -160,42 +160,27 @@ Example medical lexicon:
     "TABLET"
 }
 
-🔍 Example Error Corrections
+# Example Error Corrections
 Example 1
-
 Input:
-
 Diqoxin 5omg BID
 
-
 Output:
-
 DIGOXIN 500MG BID
 
 Example 2
-
 Input:
-
 AMOXICILN 250mg
 
-
 Output:
-
 AMOXICILLIN 250mg
 
 Example 3
-
 Input:
-
 Zyxyx 10ml
-
 
 Output:
-
 Zyxyx 10ml
-
-
-(No suitable lexicon match found.)
 
 # Project Structure
 project/
@@ -209,7 +194,8 @@ project/
 
 # Installation
 Clone Repository
-git clone https://github.com/yourusername/prescription-htr.git
+git clone https://github.com/artpet19/Handwritten-Medical-prescription_transcription
+.git
 cd prescription-htr
 
 Create Environment
@@ -217,14 +203,11 @@ python -m venv venv
 
 
 Activate:
-
 Windows
-
 venv\Scripts\activate
 
 
 Linux / macOS
-
 source venv/bin/activate
 
 Install Dependencies
@@ -233,9 +216,7 @@ pip install torch torchvision numpy opencv-python
 # Running the Project
 
 Execute:
-
 python main.py
-
 
 Example output:
 
@@ -285,10 +266,7 @@ BiLSTM	Sequence Learning
 Residual U-Net	Feature Extraction
 CTC Loss	Sequence Alignment
 Levenshtein Distance	Error Correction
-# License
 
 This project is provided for academic, educational, and research purposes. Please review and update the license according to your intended use before public deployment.
-
-Developed as a research-oriented implementation of a medical handwritten prescription recognition system combining deep learning and clinical post-processing techniques.
-
-# If you found this project useful, consider starring the repository and contributing improvements to advance AI-assisted healthcare transcription systems.
+Developed as a research-oriented implementation of a medical handwritten prescription transcription combining deep learning and clinical post-processing techniques.
+If you found this project useful, consider starring the repository and contributing improvements to advance AI-assisted healthcare transcription systems.
